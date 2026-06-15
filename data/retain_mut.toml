@@ -1,0 +1,6 @@
+description = """
+The standard library provides `Vec::retain_mut` and `VecDeque::retain_mut` \
+(stable since Rust 1.61), which accept a `&mut T` in the predicate, replacing \
+the need for this crate.
+"""
+url = "https://doc.rust-lang.org/std/vec/struct.Vec.html#method.retain_mut"
