@@ -1,0 +1,6 @@
+description = """
+For most uses, `std::thread::available_parallelism` (Rust 1.59) returns the \
+parallelism available to the process. (It does not distinguish physical vs \
+logical cores the way `num_cpus` does.)
+"""
+url = "https://doc.rust-lang.org/std/thread/fn.available_parallelism.html"

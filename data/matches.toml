@@ -1,0 +1,5 @@
+description = """
+The `matches!` macro has been in `std` since Rust 1.42, and `assert_matches!` / \
+`debug_assert_matches!` followed in Rust 1.96.
+"""
+url = "https://doc.rust-lang.org/std/macro.matches.html"
