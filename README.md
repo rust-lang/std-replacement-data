@@ -66,3 +66,10 @@ consume it too. See [rust-lang/crates.io#13855][pr] for the original
 implementation.
 
 [pr]: https://github.com/rust-lang/crates.io/pull/13855
+
+## License
+
+Licensed under either of these:
+
+- Apache License, Version 2.0 ([LICENSE-APACHE](./LICENSE-APACHE) or <https://www.apache.org/licenses/LICENSE-2.0>)
+- MIT license ([LICENSE-MIT](./LICENSE-MIT) or <https://opensource.org/licenses/MIT>)
