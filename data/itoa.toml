@@ -1,0 +1,6 @@
+description = """
+The core library provides `core::fmt::NumBuffer` (stable since Rust 1.98), \
+which lets you replace `itoa::Buffer`. However not all `itoa` features are \
+present yet so check before doing a full replacement.
+"""
+url = "https://doc.rust-lang.org/nightly/core/fmt/struct.NumBuffer.html"
