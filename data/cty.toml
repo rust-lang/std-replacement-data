@@ -1,0 +1,6 @@
+description = """
+`core::ffi` (stable since Rust 1.64) provides the C primitive type aliases \
+(`c_char`, `c_int`, etc.) without `std`. The C99 `int32_t`/`size_t`-style \
+aliases have no stable `core` equivalent.
+"""
+url = "https://doc.rust-lang.org/core/ffi/index.html"
