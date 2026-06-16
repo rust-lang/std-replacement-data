@@ -1,0 +1,6 @@
+description = """
+`core::array::from_fn` (stable since Rust 1.63) builds a fixed-size array from \
+an index closure. The fallible variant (`try_from_fn`) is unstable, and the \
+crate's iterator-based constructors (`from_iter`) have no `std` equivalent yet.
+"""
+url = "https://doc.rust-lang.org/std/array/fn.from_fn.html"
