@@ -1,0 +1,6 @@
+description = """
+`assert_matches!()` and `debug_assert_matches!()` are in `std` since Rust 1.96 (in \
+`std::assert_matches`, not the prelude). The crate's `=> arm` form, which yields \
+a value or runs extra assertions on the bindings, has no `std` equivalent.
+"""
+url = "https://doc.rust-lang.org/std/macro.assert_matches.html"
