@@ -1,0 +1,6 @@
+description = """
+`core::net` (stable since Rust 1.77) provides the IP and socket address types \
+(`IpAddr`, `SocketAddr`, etc.) without `std`. The `ToSocketAddrs` trait has no \
+`core` equivalent.
+"""
+url = "https://doc.rust-lang.org/core/net/index.html"
