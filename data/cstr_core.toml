@@ -1,0 +1,5 @@
+description = """
+`CStr` moved into `core::ffi` and `CString` into `alloc::ffi`, both stable \
+since Rust 1.64, so `no_std` crates no longer need this backport.
+"""
+url = "https://doc.rust-lang.org/core/ffi/struct.CStr.html"
