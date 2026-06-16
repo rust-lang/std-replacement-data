@@ -1,0 +1,7 @@
+description = """
+`std::cell::OnceCell` (Rust 1.70) and `LazyCell` (Rust 1.80) cover the \
+single-threaded lazily-filled cell. `std::sync::OnceLock` / `LazyLock` cover the \
+thread-safe `AtomicLazyCell`. The fallible fill (`get_or_try_init`) is still \
+unstable.
+"""
+url = "https://doc.rust-lang.org/std/cell/struct.OnceCell.html"
