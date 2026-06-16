@@ -1,0 +1,5 @@
+description = """
+`std::io::IsTerminal` has been in `std` since Rust 1.70, providing the \
+`is_terminal()` method this crate offered.
+"""
+url = "https://doc.rust-lang.org/std/io/trait.IsTerminal.html"
