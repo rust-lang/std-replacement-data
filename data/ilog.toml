@@ -1,0 +1,5 @@
+description = """
+Integer logarithms are in `std` as `ilog2()`, `ilog10()`, and `ilog()` (plus \
+`checked_` variants) on the integer types, stable since Rust 1.67.
+"""
+url = "https://doc.rust-lang.org/std/primitive.u32.html#method.ilog2"
