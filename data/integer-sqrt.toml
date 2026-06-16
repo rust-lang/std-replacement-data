@@ -1,0 +1,5 @@
+description = """
+The integer square root is in `std` since Rust 1.84 as `isqrt()` on every integer \
+type, along with `checked_isqrt()` and `NonZero::isqrt()`.
+"""
+url = "https://doc.rust-lang.org/std/primitive.u32.html#method.isqrt"
