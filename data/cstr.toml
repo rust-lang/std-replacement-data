@@ -1,0 +1,6 @@
+description = """
+C-string literals (`c"..."`) have been stable since Rust 1.77 and produce a \
+`&'static CStr` from a literal. The identifier form (`cstr!(name)`) has no \
+direct equivalent.
+"""
+url = "https://doc.rust-lang.org/reference/tokens.html#c-string-and-raw-c-string-literals"
