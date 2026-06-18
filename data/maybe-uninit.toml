@@ -1,0 +1,5 @@
+description = """
+This crate was a backport of `std::mem::MaybeUninit`, which has been stable \
+since Rust 1.36 and fully replaces it.
+"""
+url = "https://doc.rust-lang.org/std/mem/union.MaybeUninit.html"
