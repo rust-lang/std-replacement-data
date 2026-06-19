@@ -1,0 +1,5 @@
+description = """
+The Strict Provenance APIs, stabilized in 1.84.0, were originally prototyped in the `sptr` crate
+before being included in `std`.
+"""
+url = "https://doc.rust-lang.org/std/ptr/index.html#strict-provenance"
