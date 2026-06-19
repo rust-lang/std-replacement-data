@@ -1,0 +1,5 @@
+description = """
+`std::io::pipe` (stable since 1.87.0) provides support for creating OS pipes for interprocess
+communication, providing the `pipe` function this crate offered.
+"""
+url = "https://doc.rust-lang.org/std/io/fn.pipe.html"
