@@ -1,0 +1,5 @@
+description = """
+`cfg_select!` has been in `std` since Rust 1.95, providing identical functionality (albeit with \
+modified syntax) to the `cfg_if!` macro this crate offered.
+"""
+url = "https://doc.rust-lang.org/std/macro.cfg_select.html"
