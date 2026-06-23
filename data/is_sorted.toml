@@ -1,0 +1,5 @@
+description = """
+`Iterator::is_sorted` (stable since Rust 1.82) provides the same functionality\
+of this crate.
+"""
+url = "https://doc.rust-lang.org/nightly/core/iter/trait.Iterator.html?search#method.is_sorted"
