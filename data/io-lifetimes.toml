@@ -1,0 +1,6 @@
+description = """
+The I/O safety APIs, stabilized in 1.66.0, were prototyped in the `io-lifetimes` crate before \
+being merged into `std` (with minor renamings). The `*Filelike` and `*Socketlike` APIs have no \
+equivalent in `std`, instead requiring platform-specific code.
+"""
+url = "https://doc.rust-lang.org/std/io/index.html#io-safety"
