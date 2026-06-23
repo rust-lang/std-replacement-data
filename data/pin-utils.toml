@@ -1,0 +1,7 @@
+description = """
+The `pin!` macro, stabilized in 1.68.0, pins a value locally to the stack, providing a more \
+convenient version of `pin-utils`'s `pin_mut!`. The other functionality of the crate, its \
+`unsafe_pinned!` and `unsafe_unpinned!` projection helpers, are already deprecated in favor of \
+`pin-project` and `pin-project-lite`.
+"""
+url = "https://doc.rust-lang.org/std/pin/macro.pin.html"
