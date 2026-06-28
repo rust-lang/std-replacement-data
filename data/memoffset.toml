@@ -1,0 +1,5 @@
+description = """
+Most of the functionality of this crate now exists in `std::mem::offset_of!` as \
+of Rust 1.77.
+"""
+url = "https://doc.rust-lang.org/std/mem/macro.offset_of.html"
