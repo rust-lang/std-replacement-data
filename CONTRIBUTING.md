@@ -39,4 +39,7 @@ whole is not replaced.
 
 Before an entry lands, the maintainer(s) of the flagged crate get a window to
 weigh in, either to object or to show that the replacement is less complete than
-claimed, in which case the entry becomes partial or is dropped.
+claimed, in which case the entry becomes partial or is dropped. (This window may
+be waived if the crate documentation specifically expresses that the crate is
+deprecated in favor of the standard library, or if it explicitly exists only as
+a backport for older MSRVs.)
