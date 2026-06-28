@@ -1,0 +1,13 @@
+description = """
+`bool::then` and `bool::then_some` support conversion to `Option`, superseding \
+this crate's `as_some` and `as_some_from`.
+
+`bool::ok_or` and `bool::ok_or_else` support conversion to `Result`, \
+superseding this crate's `ok_or` and `ok_or_else`.
+
+`.then(())` supersedes `as_option`.
+
+The other combinators have no direct single-function equivalents, though some \
+can be expressed straightforwardly given the above `std` functionality.
+"""
+url = "https://doc.rust-lang.org/std/primitive.bool.html#implementations"
