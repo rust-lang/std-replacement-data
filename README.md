@@ -1,8 +1,8 @@
 # std-replacement-data
 
-A curated dataset of Rust crates whose functionality is now available in the
-standard library. crates.io reads it to point out when `std` already covers
-what the crate provides and where to find the equivalent API.
+A curated dataset of Rust crates whose functionality is now available and
+stable in the standard library. crates.io reads it to point out when `std`
+already covers what the crate provides and where to find the equivalent API.
 
 Every entry is a checkable factual statement about `std`, never an opinion about
 a competing crate.

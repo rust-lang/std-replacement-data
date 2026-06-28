@@ -23,12 +23,18 @@ Standard-library replacements only. The dataset deliberately avoids "prefer this
 nicer crate instead" recommendations. Every entry is a checkable factual
 statement about `std`, never an opinion about a competing crate.
 
+The functionality must have shipped in a stable Rust release. If the
+functionality only exists in nightly or beta, go ahead and file a draft PR and
+start the discussion period with the crate maintainer, but the PR should not
+get merged until the functionality exists in stable Rust.
+
 Two kinds of entries qualify:
 
 - **Full**: the crate's functionality is entirely available through a stable
   `std` API.
-- **Partial**: the bulk of the crate's common use case has moved to `std`, but
-  not all of it. The `description` must spell out what is still missing.
+- **Partial**: the bulk of the crate's common use case is available in stable
+  `std`, but not all of it. The `description` must spell out what is still
+  missing.
 
 Coverage is judged by the dominant use case. If only a small slice of a crate's
 purpose lives in `std`, it does not qualify. `itertools` is the canonical
