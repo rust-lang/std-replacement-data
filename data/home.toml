@@ -1,0 +1,8 @@
+description = """
+`std::env::home_dir` was fixed and un-deprecated in Rust 1.87, providing the \
+same functionality as this crate's `home_dir` method.
+
+The `cargo_home` and `rustup_home` methods are not superseded, but are much \
+more special-purpose.
+"""
+url = "https://doc.rust-lang.org/std/env/fn.home_dir.html"
