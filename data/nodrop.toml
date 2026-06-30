@@ -1,0 +1,6 @@
+description = """
+Provided in the standard library as `ManuallyDrop`.
+
+Also see the related `MaybeUninit`.
+"""
+url = "https://doc.rust-lang.org/std/mem/struct.ManuallyDrop.html"
