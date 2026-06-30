@@ -31,9 +31,9 @@ Two kinds of entries qualify:
   not all of it. The `description` must spell out what is still missing.
 
 Coverage is judged by the dominant use case. If only a small slice of a crate's
-purpose lives in `std`, it does not qualify. `itertools` is the canonical
-exclusion: a handful of its adaptors have `std` equivalents, but the crate as a
-whole is not replaced.
+purpose lives in `std`, it does not qualify. Some canonical examples of
+exclusions are `itertools`, `libc`, and `rustix`. Some of their functionality
+has been added to `std`, but the crates are not replaced, in whole or in part.
 
 ## Maintainer notice-and-comment
 
