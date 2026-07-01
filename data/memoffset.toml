@@ -1,5 +1,7 @@
 description = """
 Most of the functionality of this crate now exists in `std::mem::offset_of!` as \
 of Rust 1.77.
+
+The functionality of `span_of!` does not exist in the standard library.
 """
 url = "https://doc.rust-lang.org/std/mem/macro.offset_of.html"
