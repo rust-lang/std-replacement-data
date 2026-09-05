@@ -1,0 +1,5 @@
+description = """
+The standard library provides various locking APIs on `std::fs::File` \
+since Rust 1.89, altough with a slightly different API.
+"""
+url = "https://doc.rust-lang.org/std/fs/struct.File.html#method.lock"
