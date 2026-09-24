@@ -1,0 +1,6 @@
+description = """
+The standard library provides various locking APIs on `std::fs::File` \
+since Rust 1.89, providing the same functionality as this crate's `FileExt` \
+trait.
+"""
+url = "https://doc.rust-lang.org/std/fs/struct.File.html#method.lock"
