@@ -30,14 +30,21 @@ url = "https://doc.rust-lang.org/std/sync/struct.LazyLock.html"
 
 ## Consuming the data
 
-`build.py` bundles every TOML file into a single `build/all.json`, keyed by
-crate name. That file is published to GitHub Pages:
+`build.py` bundles every TOML file into `build/all.json`, keyed by crate name,
+and writes `build/crates/<crate>.json` for each crate. Each per-crate file contains
+the `description` and `url` directly, without a crate-name wrapper.
+
+Both formats are published to GitHub Pages:
 
 ```
 https://rust-lang.github.io/std-replacement-data/all.json
+https://rust-lang.github.io/std-replacement-data/crates/lazy_static.json
 ```
 
-To build it locally (Python 3.11+ for `tomllib`):
+CI builds and uploads the entire `build/` directory on pull requests and pushes
+to `main`. Only pushes to `main` deploy the result to GitHub Pages.
+
+To build the files locally (Python 3.11+ for `tomllib`):
 
 ```sh
 python3 build.py
