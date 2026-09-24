@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Bundle the per-crate TOML files in `data/` into `build/all.json`."""
+"""Convert `data/` TOML files into bundled and per-crate JSON in `build/`."""
 
 import json
+import shutil
 import sys
 import tomllib
 from pathlib import Path
@@ -60,6 +61,18 @@ def main():
         f.write("\n")
 
     print(f"Wrote {len(crates)} crates to {out.relative_to(ROOT)}")
+
+    crates_dir = BUILD_DIR / "crates"
+    if crates_dir.exists():
+        shutil.rmtree(crates_dir)
+    crates_dir.mkdir()
+
+    for name, entry in crates.items():
+        with (crates_dir / f"{name}.json").open("w") as f:
+            json.dump(entry, f, indent=2, sort_keys=True)
+            f.write("\n")
+
+    print(f"Wrote {len(crates)} per-crate files to {crates_dir.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
