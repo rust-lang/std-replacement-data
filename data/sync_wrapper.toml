@@ -1,0 +1,5 @@
+description = """
+`std::sync::SyncView` has been in `std` since Rust 1.101, providing the
+functionality of the `SyncWrapper` this crate offers.
+"""
+url = "https://doc.rust-lang.org/std/sync/struct.SyncView.html"
