@@ -1,0 +1,4 @@
+description = """
+Since Rust 1.100, `::never_say_never::Never` can be replaced with `!`, the stabilized syntax for the never type.
+"""
+url = "https://doc.rust-lang.org/std/primitive.never.html"
