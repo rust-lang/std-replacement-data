@@ -1,0 +1,6 @@
+description = """
+Since Rust 1.100, `core::mem::DropGuard` provides the same functionality: \
+`let _guard = DropGuard::new((), |()| ...);` replaces both `defer(...)` and \
+the `defer!` macro.
+"""
+url = "https://doc.rust-lang.org/core/mem/struct.DropGuard.html"
