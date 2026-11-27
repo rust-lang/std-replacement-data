@@ -1,0 +1,5 @@
+description = """
+`core::mem::DropGuard` (Rust 1.100) provides the same functionality as this \
+crate's `guard` and `DropGuard`.
+"""
+url = "https://doc.rust-lang.org/core/mem/struct.DropGuard.html"
