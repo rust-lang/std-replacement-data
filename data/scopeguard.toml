@@ -1,0 +1,7 @@
+description = """
+`core::mem::DropGuard` (Rust 1.100) replaces `guard` and `defer!`, with \
+`DropGuard::dismiss` replacing `ScopeGuard::into_inner`. The \
+`OnSuccess`/`OnUnwind` strategies (`guard_on_success`, `guard_on_unwind` and \
+their macros) have no `std` equivalent.
+"""
+url = "https://doc.rust-lang.org/core/mem/struct.DropGuard.html"
